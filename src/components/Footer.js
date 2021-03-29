@@ -21,7 +21,7 @@ function Footer() {
               type='email'
               placeholder='Your Email'
             />
-            {/* <Button buttonStyle='btn--outline'>Subscribe</Button> */}
+            <Button buttonStyle='btn--outline'>Subscribe</Button>
           </form>
         </div>
       </section>
@@ -29,12 +29,20 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>About Us</h2>
+            <p style={{color: '#F0F8B0', fontSize: '15px'}}>ATHARVA AYUDHAMA is a dedicated attempt to recreate the wonders of Ayurveda in the modern world. 
+              Apart from rendering valuable service in alleviating the sufferings and providing optimal health 
+              solutions, the ATHARVA group has branched itself into various related fields.
+            </p>
             
           </div>
           <div class='footer-link-items'>
             <h2>Contact Us</h2>
-            <Link to='/'>Contact</Link>
-            <Link to='/'>Support</Link>
+            {/* <Link to='/'>Contact</Link>
+            <Link to='/'>Support</Link> */}
+            <Link to='/'><h6>Tel:</h6> 7847033999</Link>
+            <br/>
+            <Link to='/'><h6>E-Mail:</h6> ayurdantham@gmail.com</Link>
+
             
           </div>
         </div>
@@ -54,7 +62,7 @@ function Footer() {
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
               Atharva Ayurdhama
-              <i class='fab fa-typo3' />
+              {/* <i class='fab fa-typo3' /> */}
             </Link>
           </div>
           <small class='website-rights'>Atharva © 2021</small>
