@@ -8,6 +8,7 @@
 .home,
 .services,
 .products,
+.createPost,
 .sign-up {
   display: flex;
   height: 90vh;
@@ -26,6 +27,15 @@
 }
 
 .products {
+  /* background-image: url('/images/img-1.jpg'); */
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: rgb(0, 0, 0);
+  font-size: 100px;
+}
+
+.createPost {
   /* background-image: url('/images/img-1.jpg'); */
   background-position: center;
   background-size: fill;
